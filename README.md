@@ -8,7 +8,7 @@
 
 - [`home_task_1`](./transformer.ipynb) — **Создание трансформера с нуля**
 - [`home_task_2`](./bert_qa.ipynb) — **Решение задачи Question Answering**
-- [`home_task_3`](./SFT_T5.ipynb) — **Файнтюнинг модели T5 для генерации заголовков**
+- [`home_task_3`](./SFT_T5.ipynb) — **Файнтюнинг модели T5 для генерации заголовков** попробовать в HuggingFace Space [тут](https://huggingface.co/spaces/Patrik1352/T5_Titler)
 
 ---
 
