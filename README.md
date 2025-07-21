@@ -87,7 +87,7 @@
 🚀 Полезно для понимания оптимизации LLM в продакшн-среда
 
 ## 🏥 `AIbolit`: Итоговый проект - AI-ассистент для пациентов с ревматоидным артритом
-
+[![Demo Video](https://img.youtube.com/vi/B2ArjqAU1gE?feature=share/0.jpg)](https://youtube.com/shorts/B2ArjqAU1gE?feature=share)
 > Ключевые особенности проекта:
 - 🤖 Telegram-бот для удобного взаимодействия с пациентами
 - 📚 RAG-система на 31 PDF-документе медицинских рекомендаций
