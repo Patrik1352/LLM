@@ -11,7 +11,8 @@
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1GFGIqh3FiFGLMl2FmKwy7mJEvOejZRJq/view?usp=drive_link) [`SFT_T5`](./SFT_T5.ipynb) — **Файнтюнинг модели T5 для генерации заголовков**
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1bFOxFK8oGVVnxHGML-dUzxgWXByuz6nk/view?usp=drive_link) [`Guard_LLM`](./Guard_LLM.ipynb) — **Фильтрация опасного контента и изучение векторных баз данных**
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1tpLFS2QWopXahQ5gULKyCZ7RA-6TyDyN/view?usp=drive_link) [`QLoRa`](./LoRa.ipynb) — **Дообучение Mistral методом LoRA и обработка PDF-документов**
-
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/14KdeNLJj6q87Vq5nKq3Yjy0558mGUTgG/view?usp=drive_link) [`vllm`](./vllm.ipynb) — **Оптимизация LLM с помощью vLLM: квантизация и speculative decoding**
+- [`AIbolit`](./final_project) - **AIbolit (AIболит): Итоговый проект - AI-ассистент для пациентов с ревматоидным артритом**
 ---
 
 ## 🔧 `Transformer`: Реализация трансформера с нуля
@@ -75,6 +76,34 @@
 
 📄 Полезно для работы с мультимодальными данными в RAG-системах.
 
+## ⚡ `vLLM`: Оптимизация LLM с помощью vLLM
+
+> Основные темы:
+- Изучение методов квантизации (AWQ, GPTQ)
+- Практическая реализация speculative decoding
+- Работа с фреймворком vLLM для оптимизации инференса
+- Сравнение производительности разных методов ускорения
+
+🚀 Полезно для понимания оптимизации LLM в продакшн-среда
+
+## 🏥 `AIbolit`: Итоговый проект - AI-ассистент для пациентов с ревматоидным артритом
+
+> Ключевые особенности проекта:
+- 🤖 Telegram-бот для удобного взаимодействия с пациентами
+- 📚 RAG-система на 31 PDF-документе медицинских рекомендаций
+- 🎥 Мультимодальный поиск по 10 обучающим видео
+- 🧠 GPT-4o для генерации ответов с медицинским контекстом
+- 🔍 FAISS для эффективного векторного поиска
+- ⚠️ Автоматическое предупреждение: "Я AI-помощник. Проконсультируйтесь с врачом."
+
+Используемые технологии:
+🦜🔗 LangChain + ChatOpenAI (gpt-4o)
+🧠 FAISS для векторного поиска
+📄 Unstructured для обработки PDF (текст, таблицы, изображения)
+🎬 Whisper для транскрибации видео
+🤖 python-telegram-bot
+☁️ Хранение в Google Drive
+
 ---
 
 ## 🛠️ Используемые технологии
@@ -87,7 +116,7 @@
 - `Hugging Face Hub & Spaces`
 - `PEFT` (LoRA)
 - `Unstructured` (обработка PDF)
-
+- `vLLM, AutoAWQ`
 ---
 
 ## 📌 Автор
