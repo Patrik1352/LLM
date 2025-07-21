@@ -98,3 +98,7 @@
 Если текст — используем PDF RAG для ответа.
 
 Ответ всегда завершает фразой: "Я AI-помощник. Проконсультируйтесь с врачом.".
+
+## Пример работы
+
+[![Demo Video](https://img.youtube.com/vi/B2ArjqAU1gE?feature=share/0.jpg)](https://youtube.com/shorts/B2ArjqAU1gE?feature=share)
