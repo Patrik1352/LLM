@@ -12,6 +12,7 @@
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1bFOxFK8oGVVnxHGML-dUzxgWXByuz6nk/view?usp=drive_link) [`Guard_LLM`](./Guard_LLM.ipynb) — **Фильтрация опасного контента и изучение векторных баз данных**
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1tpLFS2QWopXahQ5gULKyCZ7RA-6TyDyN/view?usp=drive_link) [`QLoRa`](./LoRa.ipynb) — **Дообучение Mistral методом LoRA и обработка PDF-документов**
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/14KdeNLJj6q87Vq5nKq3Yjy0558mGUTgG/view?usp=drive_link) [`vllm`](./vllm.ipynb) — **Оптимизация LLM с помощью vLLM: квантизация и speculative decoding**
+- [`AIbolit`](./final_project) - **AIbolit (AIболит): Итоговый проект - AI-ассистент для пациентов с ревматоидным артритом**
 ---
 
 ## 🔧 `Transformer`: Реализация трансформера с нуля
@@ -85,7 +86,7 @@
 
 🚀 Полезно для понимания оптимизации LLM в продакшн-среда
 
-## 🏥 `MedicalAssistant`: Итоговый проект - AI-ассистент для пациентов с ревматоидным артритом
+## 🏥 `AIbolit`: Итоговый проект - AI-ассистент для пациентов с ревматоидным артритом
 
 > Ключевые особенности проекта:
 - 🤖 Telegram-бот для удобного взаимодействия с пациентами
